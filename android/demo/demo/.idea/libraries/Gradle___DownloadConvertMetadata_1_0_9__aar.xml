@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: :DownloadConvertMetadata_1.0.9:@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/DownloadConvertMetadata_1.0.9.aar/957e687022d020d0f0e74c4c6af4a0cf/jars/libs/VideoMetadata.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/DownloadConvertMetadata_1.0.9.aar/957e687022d020d0f0e74c4c6af4a0cf/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/DownloadConvertMetadata_1.0.9.aar/957e687022d020d0f0e74c4c6af4a0cf/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/DownloadConvertMetadata_1.0.9.aar/957e687022d020d0f0e74c4c6af4a0cf/jars/libs/XmpForJPEG.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/DownloadConvertMetadata_1.0.9.aar/957e687022d020d0f0e74c4c6af4a0cf/jars/libs/remux.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

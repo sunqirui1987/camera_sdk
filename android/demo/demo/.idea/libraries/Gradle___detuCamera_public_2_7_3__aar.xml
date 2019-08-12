@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: :detuCamera_public_2.7.3:@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/detuCamera_public_2.7.3.aar/0653d0a0b2166f87a569cb6d0fe002a6/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/detuCamera_public_2.7.3.aar/0653d0a0b2166f87a569cb6d0fe002a6/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/detuCamera_public_2.7.3.aar/0653d0a0b2166f87a569cb6d0fe002a6/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/detuCamera_public_2.7.3.aar/0653d0a0b2166f87a569cb6d0fe002a6/jars/libs/mediameta.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/detuCamera_public_2.7.3.aar/0653d0a0b2166f87a569cb6d0fe002a6/jars/libs/simple-xml-2.7.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

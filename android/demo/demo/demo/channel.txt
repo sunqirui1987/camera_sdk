@@ -1,0 +1,13 @@
+91
+detunet
+360
+baidu
+tencent
+wandoujia
+xiaomi
+meizu
+oppo
+yingyonghui
+huawei
+lenovo
+googleplay

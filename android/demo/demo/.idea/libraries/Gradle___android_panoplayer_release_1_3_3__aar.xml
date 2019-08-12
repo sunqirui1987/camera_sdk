@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: :android_panoplayer-release_1.3.3:@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/android_panoplayer-release_1.3.3.aar/4f207466ae543e8bfbd785145db9f82c/jars/libs/universal-image-loader-1.9.4-with-sources.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/android_panoplayer-release_1.3.3.aar/4f207466ae543e8bfbd785145db9f82c/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/android_panoplayer-release_1.3.3.aar/4f207466ae543e8bfbd785145db9f82c/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

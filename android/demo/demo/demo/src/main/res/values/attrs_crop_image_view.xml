@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <declare-styleable name="CropImageView">
+    <attr name="cropGuidelines">
+      <enum name="off" value="0"/>
+      <enum name="onTouch" value="1"/>
+      <enum name="on" value="2"/>
+    </attr>
+    <attr name="cropScaleType">
+      <enum name="fitCenter" value="0"/>
+      <enum name="center" value="1"/>
+      <enum name="centerCrop" value="2"/>
+      <enum name="centerInside" value="3"/>
+    </attr>
+    <attr name="cropShape">
+      <enum name="rectangle" value="0"/>
+      <enum name="oval" value="1"/>
+    </attr>
+    <attr name="cropAutoZoomEnabled" format="boolean"/>
+    <attr name="cropMaxZoom" format="integer"/>
+    <attr name="cropMultiTouchEnabled" format="boolean"/>
+    <attr name="cropFixAspectRatio" format="boolean"/>
+    <attr name="cropAspectRatioX" format="integer"/>
+    <attr name="cropAspectRatioY" format="integer"/>
+    <attr name="cropInitialCropWindowPaddingRatio" format="float"/>
+    <attr name="cropBorderLineThickness" format="dimension"/>
+    <attr name="cropBorderLineColor" format="color"/>
+    <attr name="cropBorderCornerThickness" format="dimension"/>
+    <attr name="cropBorderCornerOffset" format="dimension"/>
+    <attr name="cropBorderCornerLength" format="dimension"/>
+    <attr name="cropBorderCornerColor" format="color"/>
+    <attr name="cropGuidelinesThickness" format="dimension"/>
+    <attr name="cropGuidelinesColor" format="color"/>
+    <attr name="cropBackgroundColor" format="color"/>
+    <attr name="cropSnapRadius" format="dimension"/>
+    <attr name="cropTouchRadius" format="dimension"/>
+    <attr name="cropSaveBitmapToInstanceState" format="boolean"/>
+    <attr name="cropShowCropOverlay" format="boolean"/>
+    <attr name="cropShowProgressBar" format="boolean"/>
+    <attr name="cropMinCropWindowWidth" format="dimension"/>
+    <attr name="cropMinCropWindowHeight" format="dimension"/>
+    <attr name="cropMinCropResultWidthPX" format="float"/>
+    <attr name="cropMinCropResultHeightPX" format="float"/>
+    <attr name="cropMaxCropResultWidthPX" format="float"/>
+    <attr name="cropMaxCropResultHeightPX" format="float"/>
+    <attr name="cropFlipHorizontally" format="boolean"/>
+    <attr name="cropFlipVertically" format="boolean"/>
+  </declare-styleable>
+
+
+
+  <string name="crop_image_activity_title">编辑</string>
+  <string name="crop_image_menu_rotate_left">逆时针旋转</string>
+  <string name="crop_image_menu_rotate_right">旋转</string>
+  <string name="crop_image_menu_crop">裁剪</string>
+  <string name="crop_image_menu_flip">翻转</string>
+  <string name="crop_image_menu_flip_horizontally">水平翻转</string>
+  <string name="crop_image_menu_flip_vertically">垂直翻转</string>
+  <string name="pick_image_intent_chooser_title">选择来源</string>
+  <string name="crop_image_activity_no_permissions">正在取消，该操作未获得所需权限。</string>
+  <string name="crop_reset">还原</string>
+  <string name="crop_title">编辑</string>
+
+</resources>

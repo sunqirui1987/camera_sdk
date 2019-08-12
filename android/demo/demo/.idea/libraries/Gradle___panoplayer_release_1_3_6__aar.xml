@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: :panoplayer-release_1.3.6:@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/panoplayer-release_1.3.6.aar/abcb4df614b3f8fe139ac74f05fbcdc8/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/panoplayer-release_1.3.6.aar/abcb4df614b3f8fe139ac74f05fbcdc8/jars/libs/m1decoder.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/panoplayer-release_1.3.6.aar/abcb4df614b3f8fe139ac74f05fbcdc8/jars/libs/lightcycle.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/panoplayer-release_1.3.6.aar/abcb4df614b3f8fe139ac74f05fbcdc8/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

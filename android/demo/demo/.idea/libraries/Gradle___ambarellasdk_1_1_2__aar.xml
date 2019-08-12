@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: :ambarellasdk_1.1.2:@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/ambarellasdk_1.1.2.aar/f19b64f674dd0176bfbf27c4258da5be/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/ambarellasdk_1.1.2.aar/f19b64f674dd0176bfbf27c4258da5be/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

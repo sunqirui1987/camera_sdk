@@ -1,0 +1,539 @@
+<resources>
+
+    <string name="app_name">Demo</string>
+    <string name="app_version">1.0.0</string>
+    <string name="app_desc">房源用3D&#160;&#160;卖房更容易</string>
+
+
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="del">删除</string>
+    <string name="finish">完成</string>
+    <string name="text_star">*</string>
+    <string name="file_not_exit">文件不存在</string>
+    <string name="type_case">案例</string>
+
+    <string name="error_list_load">数据加载失败</string>
+
+    <string name="login_login">登录</string>
+    <string name="login_hint_input_tel">输入手机号码</string>
+    <string name="login_hint_input_pwd">输入密码</string>
+    <string name="login_btn_login">登录</string>
+    <string name="login_success">登录成功</string>
+    <string name="login_error">登录失败</string>
+    <string name="login_login_child_count">子账号登录</string>
+    <string name="login_user_agent_text">"<font color='#666666' size='26px'>注册/登录即代表同意</font><font color='#CCCCCC' size='26px'>《白犀牛用户协议》</font>"</string>
+    <string name="login_user_agent">注册/登录即代表同意《白犀牛用户协议》</string>
+    <string name="login_unregister">尚未注册</string>
+    <string name="login_how_register">如何注册</string>
+    <string name="login_register_desc">白犀牛暂未开放注册，购买白犀牛相关产品后自动为您生成账号</string>
+    <string name="login_action_buy">去购买</string>
+    <string name="login_forget_pwd">忘记密码?</string>
+    <string name="login_group">请选择团队</string>
+    <string name="login_register_title">注册</string>
+    <string name="login_register_input_tel">输入手机号码</string>
+    <string name="login_register_get_code">获取验证码</string>
+    <string name="login_register_input_code">请输入验证码</string>
+    <string name="login_register_input_pwd">请输入密码(最少8位,数字加字母)</string>
+    <string name="login_register_submit">立即注册</string>
+    <string name="login_pwd_forget_title">找回密码</string>
+    <string name="login_pwd_forget_input_tel">输入手机号码</string>
+    <string name="login_pwd_forget_get_code">获取验证码</string>
+    <string name="login_pwd_forget_input_code">请输入验证码</string>
+    <string name="login_pwd_forget_input_pwd">请输入密码(最少8位,数字加字母)</string>
+    <string name="login_pwd_forget_submit">确定</string>
+
+    <string name="login_pwd_forget_child_title">子账号找回密码</string>
+    <string name="login_pwd_def_reset">更改密码</string>
+    <string name="login_pwd_def_reset_desc">为了保障您的账号安全，请修改初始密码</string>
+    <string name="login_pwd_new">新密码</string>
+    <string name="login_pwd_new_check">确认新密码</string>
+    <string name="login_pwd_reset_success">密码重置成功,请重新登录</string>
+    <string name="login_token_invalid">密码已失效,请重新登录</string>
+
+    <string name="login_bind_tel_title">绑定手机号</string>
+    <string name="login_bind_tel_input_tel">输入手机号码</string>
+    <string name="login_bind_tel_get_code">获取验证码</string>
+    <string name="login_bind_tel_submit">确定</string>
+    <string name="login_bind_tel_tip">*如果放弃绑定手机号码，则无法完成登录操</string>
+
+    <string name="login_toast_input_tel">请填写手机号码</string>
+    <string name="login_toast_tel_error">请填写正确的手机号码</string>
+    <string name="login_toast_code_error">验证码获取失败</string>
+    <string name="login_toast_code_send">验证码已发送,请注意查收短信</string>
+    <string name="login_toast_input_code">请输入验证码</string>
+    <string name="login_toast_input_pwd">请输入密码</string>
+    <string name="login_toast_input_pwd_length_error">密码最少8位</string>
+    <string name="login_toast_register_error">注册失败</string>
+
+    <string name="error_toast_unlogin">未登录</string>
+    <string name="error_toast_disconnect_camera">请断开相机连接</string>
+    <string name="error_toast_disconnect_net">没有网络连接</string>
+
+    <string name="login_pwd_reset_title">设置密码</string>
+    <string name="login_pwd_reset_desc">登录密码修改后，可用新密码登录App</string>
+    <string name="login_pwd_reset_input_hint_new">请输入新密码</string>
+    <string name="login_pwd_reset_confirm">完成</string>
+    <string name="login_pwd_reset_success_dis_login">密码重置成功</string>
+
+    <string name="login_mobile_reset_title">更改手机号</string>
+    <string name="login_mobile_reset_cur">您当前的手机号:</string>
+    <string name="login_mobile_reset_confirm">更改手机号</string>
+    <string name="login_mobile_reset_desc">手机号更改后，您的登录账号会变更为新的手机号</string>
+    <string name="login_dialog_pwd_input_title">请输入登录密码</string>
+    <string name="login_mobile_reset_input_mobile_title">输入手机号</string>
+    <string name="login_mobile_reset_input_mobile_desc">更换手机号后\n下次可使用新的手机号登录</string>
+    <string name="login_mobile_reset_input_mobile_hint">请输入新的手机号</string>
+    <string name="login_mobile_reset_input_mobile_confirm">确定</string>
+    <string name="login_mobile_reset_input_code_title">输入验证码</string>
+    <string name="login_mobile_reset_input_code_desc">验证码已发送至手机</string>
+    <string name="login_mobile_reset_input_code_hint">请输入验证码</string>
+    <string name="login_mobile_reset_input_code_confirm">完成</string>
+    <string name="login_mobile_reset_success">手机号修改成功</string>
+    <string name="login_error_user_code_invalid">您的账号已修改密码，请重新登录</string>
+
+    <string name="share_text_weixin_circle">分享到朋友圈</string>
+    <string name="share_text_weixin">分享到微信</string>
+    <string name="share_text_qq">分享到QQ</string>
+    <string name="share_text_qzone">分享到QQ空间</string>
+    <string name="share_text_sina">分享到微博</string>
+    <string name="share_text_copy_link">复制链接</string>
+    <string name="share_text_shelf_on">房源上架</string>
+    <string name="share_text_shelf_off">房源下架</string>
+    <string name="share_text_del">删除</string>
+    <string name="project_toast_shelf_on">已上架</string>
+    <string name="project_toast_shelf_off">已下架</string>
+    <string name="project_state_shelf_off">已下架</string>
+
+    <string name="search_hint">您想找的楼盘、小区</string>
+    <string name="search_result">为您找到以下房源</string>
+    <string name="search_empty">没有找到相关的房源，换个内容试试吧</string>
+
+    <string name="project_dialogEditProjectTitle">请输入房源标题</string>
+    <string name="project_hintEditTitle">房源标题限制20个字</string>
+    <string name="project_error_name_empty_project">房源标题不能为空</string>
+    <string name="project_help_to_setting">去设置</string>
+    <string name="project_help_title">请链接全景相机</string>
+    <string name="project_exit_edit_tip">确认退出拍摄?</string>
+
+    <string name="project_project_del_check">确认删除该项目?</string>
+
+    <string name="project_title">全景</string>
+    <string name="menu_table_all">全部</string>
+    <string name="menu_table_sale">出售</string>
+    <string name="menu_table_rent">出租</string>
+    <string name="project_cloud_all">已上传-全部</string>
+    <string name="project_cloud_sale">已上传-出售</string>
+    <string name="project_cloud_rent">已上传-出租</string>
+    <string name="project_local">未上传</string>
+    <string name="project_empty">此处空空的什么也没有</string>
+    <string name="project_empty_local">此处空空的什么也没有</string>
+    <string name="project_empty_cloud">此处空空的什么也没有</string>
+    <string name="project_photo">采集</string>
+    <string name="project_nextStep">下一步</string>
+
+    <string name="room_balcony">阳台</string>
+    <string name="room_bathroom">卫生间</string>
+    <string name="room_bedroom">主卧</string>
+    <string name="room_kitchen">厨房</string>
+    <string name="room_parlor">客厅</string>
+    <string name="room_restaurant">餐厅</string>
+    <string name="room_storageRoom">储物间</string>
+    <string name="room_secondBedroom">次卧</string>
+    <string name="room_studyRoom">书房</string>
+    <string name="room_others">房间</string>
+    <string name="room_entrance">玄关</string>
+    <string name="room_aisle">过道</string>
+
+    <string name="room_3D">3D</string>
+    <string name="reTakePhoto">重新拍摄</string>
+    <string name="module_ok">完成</string>
+    <string name="module_remark">重新标注</string>
+    <string name="downloading">文件正在下载中</string>
+    <string name="downloadSuccess">下载成功</string>
+    <string name="downloadError">下载失败</string>
+    <string name="menu_play">查看</string>
+    <string name="menu_edit">编辑</string>
+    <string name="menu_del">删除</string>
+    <string name="menu_share">分享</string>
+    <string name="menu_upload">上传</string>
+    <string name="size_square">㎡</string>
+    <string name="symbol_add">+</string>
+    <string name="symbol_reduce">-</string>
+    <string name="room_edit">添加结构</string>
+    <string name="dialog_cancel">取消</string>
+    <string name="dialog_ok">确认</string>
+    <string name="customize">自定义</string>
+
+    <string name="house_info_edit_new">录入房源信息</string>
+    <string name="house_info_edit_next">下一步</string>
+    <string name="house_info_edit_upload">上传</string>
+    <string name="house_info_edit_save">保存</string>
+    <string name="house_info_edit_update">更新</string>
+    <string name="house_info_edit_type_menu_sale">当前选择房源类型</string>
+    <string name="house_info_edit_location">所在位置</string>
+    <string name="house_info_edit_location_hint">地区信息</string>
+    <string name="house_info_edit_location_detail">详细地址</string>
+    <string name="house_info_edit_location_detail_hint">请选择详细地址</string>
+    <string name="house_info_edit_community_name">小区名称</string>
+    <string name="house_info_edit_community_name_hint">输入小区名称</string>
+    <string name="house_info_edit_project_name">房源标题</string>
+    <string name="house_info_edit_project_name_hint">请填写房源标题</string>
+
+    <string name="house_info_edit_unit_info">单元信息</string>
+    <string name="house_info_edit_unit_info_hint">如1幢1单元1002室</string>
+    <string name="house_info_edit_floor_info">所在楼层</string>
+    <string name="house_info_edit_floor_info_hint">请选择所在楼层</string>
+    <string name="house_info_edit_size_info">建筑面积</string>
+    <string name="house_info_edit_size_info_hint">89</string>
+    <string name="house_info_edit_price_sale">售价信息</string>
+    <string name="house_info_edit_price_rent">租金信息</string>
+    <string name="house_info_edit_price_sale_hint">400.50</string>
+    <string name="house_info_edit_price_rent_hint">2000</string>
+    <string name="house_info_edit_size_unit_m">平方米</string>
+    <string name="house_info_edit_price_unit_yuan_wan">万元</string>
+    <string name="house_info_edit_price_unit_yuan">元/月</string>
+    <string name="house_info_edit_id">房源编号&#160;</string>
+    <string name="house_info_edit_id_hint">房源编号</string>
+    <string name="house_info_edit_map_upload_hint">上传户型图</string>
+    <string name="house_info_edit_map_upload_desc">未上传户型图无法制作3D房源</string>
+    <string name="house_info_edit_map_not_can_edit">当前状态不可修改户型图</string>
+    <string name="house_info_edit_map_edit_disable_success">模型展示中，不可修改户型图</string>
+    <string name="house_info_edit_map_edit_disable_processing">模型处理中，不可修改户型图</string>
+    <string name="house_info_edit_map_edit_disable_none">未上传楼层对应户型图无法制作3D模型</string>
+
+    <string name="house_info_edit_logo_hint">补地LOGO</string>
+    <string name="house_info_edit_logo_desc">请上传500px*500px大小的图片</string>
+
+    <string name="house_info_edit_decoration">装修状况</string>
+    <string name="house_info_edit_decoration_hint">选择装修状况</string>
+    <string name="house_info_edit_type">建筑类型</string>
+    <string name="house_info_edit_type_hint">选择建筑类型</string>
+    <string-array name="house_info_type_1">
+        <item>新房</item>
+        <item>二手房</item>
+        <item>商业地产</item>
+    </string-array>
+    <string-array name="house_info_type_2">
+        <item>普通住宅</item>
+        <item>公寓</item>
+        <item>别墅</item>
+        <item>其他</item>
+    </string-array>
+    <string-array name="house_info_type_3">
+        <item>商住两用</item>
+        <item>写字楼</item>
+        <item>商铺</item>
+        <item>其他</item>
+    </string-array>
+    <string name="house_info_edit_rent_type">出租方式</string>
+    <string name="house_info_edit_rent_type_hint">请选择出租方式</string>
+    <string name="house_info_edit_rent_all">整租</string>
+    <string name="house_info_edit_rent_share">合租</string>
+
+    <string name="house_info_edit_pay_method">付款方式</string>
+    <string name="house_info_edit_pay_method_hint">请选择付款方式</string>
+    <string name="house_info_edit_pay_method_one_one">押一付一</string>
+    <string name="house_info_edit_pay_method_one_three">押一付三</string>
+    <string name="house_info_edit_pay_method_half_year">半年付</string>
+    <string name="house_info_edit_pay_method_one_year">年付</string>
+
+    <string name="house_info_edit_error_location">请选择"所在位置"</string>
+    <string name="house_info_edit_error_project_name">请填写"项目名称"</string>
+    <string name="house_info_edit_error_location_detail">请填写"详细地址"</string>
+    <string name="house_info_edit_error_community_name">请填写"小区名称"</string>
+    <string name="house_info_edit_error_unit_info">请填写"单元信息"</string>
+    <string name="house_info_edit_error_floor_info">请填写"所在楼层"</string>
+    <string name="house_info_edit_error_size_info">请填写"建筑面积"</string>
+    <string name="house_info_edit_error_price_sale">请填写"售价信息"</string>
+    <string name="house_info_edit_error_decoration">请选择"装修状况"</string>
+    <string name="house_info_edit_error_id">请填写"房源编号"</string>
+    <string name="house_info_edit_error_type">请选择"建筑类型"</string>
+
+
+    <string name="house_info_edit_sale_type_title">房源类型</string>
+    <string name="house_info_edit_sale_type_desc">请选择您要发布的房源类型</string>
+    <string name="house_info_edit_sale_type_rent">出租</string>
+    <string name="house_info_edit_sale_type_sale">出售</string>
+
+    <string name="house_info_edit_floor_add_new">添加新楼层</string>
+    <string name="house_info_edit_floor_title">选择楼层</string>
+    <string name="house_info_edit_floor_edit">编辑</string>
+    <string name="house_info_edit_floor_name_input_title">新建楼层名称</string>
+    <string name="house_info_edit_floor_name_input_hint">输入楼层名称</string>
+
+
+    <string name="user_info">个人信息</string>
+    <string name="user_info_edit_save">保存</string>
+    <string name="user_info_edit_head">头像&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</string>
+    <string name="user_info_edit_head_hint">更改头像</string>
+    <string name="user_info_edit_name">姓名&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</string>
+    <string name="user_info_edit_name_hint">输入姓名</string>
+    <string name="user_info_edit_sex">性别&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</string>
+    <string name="user_info_edit_sex_hint">选择性别</string>
+    <string name="user_info_edit_tel">手机号&#160;&#160;&#160;&#160;</string>
+    <string name="user_info_edit_tel_hint">请输入11位手机号</string>
+    <string name="user_info_edit_location_shop">门店区域</string>
+    <string name="user_info_edit_location_shop_hint">地区信息</string>
+    <string name="user_info_edit_shop_name">公司名称</string>
+    <string name="user_info_edit_shop_name_hint">公司名称</string>
+    <string name="user_edit_edit_location_detail">详细地址</string>
+    <string name="user_edit_edit_location_detail_hint">请输入详细地址</string>
+    <string name="user_edit_edit_password_modify">修改密码</string>
+    <string name="user_edit_edit_password_modify_hint">请输入新密码</string>
+    <string name="user_edit_edit_verification_code">验证码&#160;&#160;&#160;&#160;</string>
+    <string name="user_edit_edit_verification_code_hint">输入验证码</string>
+    <string name="user_edit_edit_send_verification_code">发送验证码</string>
+
+    <string name="location_choose">选择装修城市</string>
+    <string name="location_title">详细地址</string>
+    <string name="location_ok">确定</string>
+    <string name="location_cancel">取消</string>
+    <string name="location_province">省</string>
+    <string name="location_city">市</string>
+    <string name="location_district">区</string>
+    <string name="location_input_location_hint">输入小区名称</string>
+    <string name="location_here">当前定位城市</string>
+    <string name="location_poi_no_result">对不起，没有搜索到相关数据！</string>
+
+
+
+    <string name="adornment_choose">选择装修状况</string>
+    <string-array name="adornment">
+        <item>豪华装修</item>
+        <item>精装装修</item>
+        <item>中等装修</item>
+        <item>简单装修</item>
+        <item>毛胚</item>
+    </string-array>
+
+    <string name="sex_choose">选择性别</string>
+    <string-array name="sex">
+        <item>男</item>
+        <item>女</item>
+    </string-array>
+
+    <string name="crop_save">保存</string>
+    <string name="crop_select_image">选择照片</string>
+    <string name="crop_cannot_load_image">不能加载此圖片</string>
+    <string name="crop_crop_title">图片裁剪</string>
+    <color name="crop_shadow_color">#4F000000</color>
+    <color name="crop_shadow_wp_color">#4F000000</color>
+    <color name="crop_wp_markers">#7FFFFFFF</color>
+    <dimen name="crop_preview_margin">2dp</dimen>
+    <dimen name="crop_shadow_margin">5dp</dimen>
+    <dimen name="crop_min_side">45dp</dimen>
+    <dimen name="crop_touch_tolerance">5dp</dimen>
+    <dimen name="crop_wp_selector_dash_length">4dp</dimen>
+    <dimen name="crop_wp_selector_off_length">4dp</dimen>
+    <dimen name="crop_indicator_size">20dp</dimen>
+    <string name="crop_source">请选择图片来源</string>
+    <string name="crop_source_photo">去拍摄</string>
+    <string name="crop_source_album">从手机相册选择</string>
+    <string name="crop_cancel">取消</string>
+
+
+    <string name="luxury">豪华装修</string>
+    <string name="fine">精装修</string>
+    <string name="middle">中等装修</string>
+    <string name="simple">简单装修</string>
+    <string name="embryo">毛胚</string>
+
+    <string name="share">分享</string>
+
+    <string name="project_message_del_scene">是否删除该场景</string>
+
+    <string name="project_unComplete">正在处理中&#8230;</string>
+    <string name="share_copyLinkSuccess">链接复制成功</string>
+    <string name="share_unSupport">暂不支持</string>
+    <string name="share_success">分享成功</string>
+    <string name="share_error">分享失败</string>
+
+    <string name="upload_error_connect_camera">请断开相机连接网络再上传</string>
+    <string name="upload_error_none_net">暂无网络链接,请链接网络</string>
+    <string name="upload_uploading">文件正在上传中</string>
+    <string name="upload_project_success">项目上传成功</string>
+    <string name="upload_net_mobile_tip">已设置仅WiFi下上传</string>
+
+    <string name="upload_error_project_service_max">项目上传失败,服务次数已用完</string>
+    <string name="upload_error_project_create_project">项目上传失败</string>
+    <string name="upload_error_project_sign">项目上传失败</string>
+    <string name="upload_error_project_service_no_open">项目上传失败,暂未开通服务</string>
+    <string name="upload_error_project_service_sn_mismatch">项目上传失败,相机编号与开通服务不匹配</string>
+    <string name="upload_error_project_upload">项目上传失败</string>
+    <string name="upload_error_project_service_time_end">服务已到期</string>
+    <string name="upload_error_project_sn_empty">相机编号为空,请连接相机重新编辑此项目</string>
+
+
+    <string name="project_commitTipDisConnectCamera">请先断开与相机的连接后选择提交</string>
+    <string name="project_uploadMobileNetTipDesc" formatted="false">正在使用移动流量网络，提交需消耗 %s 流量</string>
+    <string name="project_uploadNetChangePauseAllTip">网络发生变化，所有上传项目已暂停</string>
+    <string name="project_uploadMobileNetTipTitle">流量网络使用提醒</string>
+
+    <string name="project_back_tip_data_save">是否保存当前拍摄数据</string>
+    <string name="project_save">保存</string>
+    <string name="project_unSave">不保存</string>
+    <string name="project_back_tip_delProject">项目数据已被清空,是否删除当前项目并退出拍摄</string>
+    <string name="project_delProject">删除</string>
+    <string name="project_delProject_success">删除成功</string>
+    <string name="project_delProject_error">删除失败</string>
+
+
+    <string name="setting_title">个人中心</string>
+    <string name="setting_menu_user_info">个人信息</string>
+    <string name="setting_menu_user_unLogin">未登录</string>
+    <string name="setting_menu_service">我的服务</string>
+    <string name="setting_menu_coupon">优惠券</string>
+    <string name="setting_menu_brokerage">我的佣金</string>
+    <string name="setting_menu_message">我的消息</string>
+    <string name="setting_menu_group">我的团队</string>
+    <string name="setting_menu_setting">设置</string>
+    <string name="setting_menu_about_us">关于我们</string>
+    <string name="setting_menu_mine_camera">我的相机</string>
+    <string name="setting_menu_help">帮助中心</string>
+    <string name="setting_menu_feedback">意见反馈</string>
+    <string name="setting_menu_logout">退出当前账号</string>
+
+    <string name="setting_feedback_title">意见反馈</string>
+    <string name="setting_feedback_hint_question">请写下您的意见和建议</string>
+    <string name="setting_feedback_hint_tel">请输入手机号码，方便我们与您联系（选填）</string>
+    <string name="setting_feedback_desc">每一条反馈我们都会认真对待\n我们将定期选出优秀反馈，定期发放神秘奖励哦~</string>
+    <string name="setting_feedback_submit">提交</string>
+    <string name="setting_feedback_success">感谢您的反馈</string>
+    <string name="setting_feedback_question_empty">请填写您的意见和建议</string>
+
+
+    <string name="setting_about_us_title">关于我们</string>
+    <string name="setting_company_name">杭州维聚科技有限公司</string>
+    <string name="setting_copyRight">Copyright 2018 weiju All Rights Reserved</string>
+    <string name="setting_app_update">版本更新</string>
+    <string name="setting_app_new">已是最新版本</string>
+
+    <string name="setting_company_info">客服：0571&#8211;28801869 \n邮箱：hi@csimum.com \n网站：http://www.csimum.com</string>
+    <string name="setting_setting_title">设置</string>
+    <string name="setting_setting_upload">上传设置</string>
+    <string name="setting_setting_upload_wifi">仅WIFI上传</string>
+    <string name="setting_setting_tel">手机号</string>
+    <string name="setting_setting_login_pwd">登录密码</string>
+    <string name="setting_pwd_input">请输入登录密码</string>
+    <string name="setting_setting_user_agent">用户协议</string>
+    <string name="setting_mode_3dEdit">制作模型</string>
+
+
+    <string name="setting_message_list_title">消息</string>
+    <string name="message_center_empty">您还没有新的信息，耐心等一下吧</string>
+    <string name="message_user_detail_title">消息</string>
+    <string name="message_user_detail_name">姓名:</string>
+    <string name="message_user_detail_sex">性别:</string>
+    <string name="message_user_detail_tel">电话:</string>
+    <string name="message_user_detail_content">咨询类容:</string>
+    <string name="message_user_detail_project">来自房源</string>
+    <string name="message_user_detail_info_title">房源信息</string>
+    <string name="message_user_detail_info_house_name">小区名称:</string>
+    <string name="message_user_detail_info_house_size">建筑面积:</string>
+    <string name="message_user_detail_info_house_price">售价信息:</string>
+    <string name="message_user_detail_info_house_unit">单元信息:</string>
+    <string name="message_user_detail_info_house_floor">所在楼层:</string>
+    <string name="message_user_detail_info_house_adornment">装修信息:</string>
+    <string name="message_user_detail_info_house_layout">房屋类型:</string>
+    <string name="message_user_detail_info_house_type">房源类型:</string>
+    <string name="message_user_detail_info_house_location">地理位置:</string>
+    <string name="message_sys_title">系统消息</string>
+    <string name="message_toast_project_deleted">该项目已被删除</string>
+    <string name="message_see_house_info">查看房源详情</string>
+    <string name="message_house_del">房源已删除</string>
+
+    <string name="message_sys_null">暂无系统消息</string>
+
+
+    <string name="brokerage_title">我的佣金</string>
+    <string name="brokerage_text_total">累计佣金</string>
+    <string name="brokerage_text_desc">当月佣金次月15日结算</string>
+    <string name="brokerage_money_unCheckout">未提现佣金</string>
+    <string name="brokerage_money_checkout">已提现佣金</string>
+    <string name="brokerage_bill_detail">查看明细</string>
+    <string name="brokerage_bind_zfb">绑定支付宝</string>
+    <string name="brokerage_rule">佣金规则须知</string>
+    <string name="brokerage_state_net_error">网络异常</string>
+    <string name="brokerage_bind_zfb_title">绑定支付宝</string>
+    <string name="brokerage_bind_zfb_success">绑定成功</string>
+    <string name="brokerage_bind_zfb_desc">绑定支付宝作为您的结算账户</string>
+    <string name="brokerage_bind_zfb_manager_title">管理支付宝</string>
+    <string name="brokerage_bind_zfb_manager_change">更换支付宝</string>
+    <string name="brokerage_bind_zfb_manager_unbind">解绑支付宝</string>
+    <string name="brokerage_bind_zfb_manager_unbind_tip">解绑支付宝会导致账号打款失败，是否解除绑定</string>
+    <string name="brokerage_bind_zfb_manager_unbind_cancel">取消</string>
+    <string name="brokerage_bind_zfb_manager_unbind_ok">解绑</string>
+
+    <string name="brokerage_zfb_account_hint">请输入支付宝账号</string>
+    <string name="brokerage_zfb_real_name_hint">请输入您的真实姓名</string>
+    <string name="brokerage_bind_zfb_check" formatted="false">请核对账号信息：\n支付宝账号：%s\n姓名：%s</string>
+    <string name="brokerage_bind_zfb_check_ok">绑定</string>
+    <string name="brokerage_bind_zfb_check_cancel">取消</string>
+
+    <string name="brokerage_account_bind_desc">请务必填写您的真实姓名，确保结算成功</string>
+    <string name="brokerage_account_bind_ok">确定</string>
+    <string name="brokerage_mine_title">我的佣金</string>
+    <string name="brokerage_detail_empty">您还没有获得过佣金</string>
+
+
+    <string name="setting_group_create_title">创建团队</string>
+    <string name="group_create">创建团队</string>
+    <string name="group_empty">您当前还没有团队，快去创建吧</string>
+
+
+    <string name="support_open_camera_wifi">当前相机未连接,请切换至相机WiFi</string>
+    <string name="support_upload_camera_disconnect">请断开相机连接至可用网络</string>
+    <string name="support_upload_none_net">暂无网络链接,请连接至可用网络</string>
+    <string name="support_action_cancel">取消</string>
+    <string name="support_action_finish">确认退出</string>
+    <string name="support_action_setting">去设置</string>
+    <string name="support_action_nextStep">下一步</string>
+    <string name="support_action_upload">上传</string>
+    <string name="support_action_save">保存</string>
+    <string name="support_action_off_wifi">一键断开WiFi连接</string>
+    <string name="support_state_wifi_off">已关闭</string>
+    <string name="support_state_wifi_on">已开启</string>
+    <string name="support_action_choose_wifi">切换WiFi至可用网络</string>
+    <string name="support_dialog_upload_menu">请选择\'上传\'或\'保存\'</string>
+    <string name="support_dialog_finish_tip_connect_camera">当前网络状态为相机链接，若退出拍摄请前往设置切换网络</string>
+    <string name="support_dialog_finish_cancel">取消</string>
+    <string name="support_dialog_finish_ok">确认</string>
+
+
+    <string name="infoSDCardLowSpeed">低速卡</string>
+    <string name="infoSDCardError">SD卡错误</string>
+    <string name="infoSDCardProtected">SD卡写保护</string>
+    <string name="infoSDCardFull">SD卡已满</string>
+    <string name="infoSDCardRemove">SD已移除</string>
+    <string name="infoCameraBusy">相机繁忙</string>
+    <string name="infoOperationFailed">操作失败</string>
+    <string name="infoTakePhotoFailed">拍照失败</string>
+
+
+    <string name="help_center_title">帮助中心</string>
+    <string name="service_title_mine">我的服务</string>
+    <string name="service_mine_camera">我的相机</string>
+    <string name="service_camera_connect_off">请断开相机连接</string>
+    <string name="service_net_not_available">网络连接不可用</string>
+    <string name="camera_info_title">相机详情</string>
+    <string name="camera_info_sn">序列号</string>
+    <string name="camera_info_model">型号</string>
+    <string name="camera_info_storage">储存</string>
+    <string name="camera_info_storage_loading">正在获取相机详情</string>
+    <string name="camera_info_storage_tf_error">存储卡异常或未安装</string>
+    <string name="camera_info_storage_format" formatted="false">已使用 %s / %s</string>
+    <string name="camera_info_storage_clear">清除SD卡</string>
+    <string name="camera_info_storage_check">确认是否清除此SD卡数据?</string>
+    <string name="camera_info_storage_clear_success">清除SD卡成功</string>
+    <string name="camera_info_storage_clear_error">清除SD卡失败</string>
+    <string name="camera_info_get_error">相机信息获取失败</string>
+    <string name="camera_info_connect_off">已与相机断开连接</string>
+    <string name="camera_info_mode_USBMemory">相机已进入USB模式,需断开连接</string>
+    <string name="camera_info_hdmi_in">相机接入HDMI，需要退出预览</string>
+    <string name="camera_connect_error">相机连接失败</string>
+    <string name="camera_connect_disconnect_others">请先断开其他相机连接</string>
+
+
+
+</resources>

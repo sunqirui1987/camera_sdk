@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.umeng.sdk:debug:1.0.0@jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.umeng.sdk/debug/1.0.0/a17d547634504b90299780602e7d16ae5adddb3b/debug-1.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.umeng.sdk/debug/1.0.0/fdcea7db3cff238ea101d8790d581fe96b8c872/debug-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
