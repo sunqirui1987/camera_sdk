@@ -1,0 +1,6 @@
+framework module PanoPlayer {
+  umbrella header "PanoPlayer.h"
+
+  export *
+  module * { export * }
+}

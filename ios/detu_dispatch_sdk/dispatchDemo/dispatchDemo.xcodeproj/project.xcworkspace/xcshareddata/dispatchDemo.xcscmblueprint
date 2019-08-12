@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "10CD0B1E441E4CD7A054D7EBF99475AAFCBBBCEE",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "F9F20604B88EE5478BDC27D909EA2F40E8133D55" : 9223372036854775807,
+    "10CD0B1E441E4CD7A054D7EBF99475AAFCBBBCEE" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "6A70EB60-6746-43CE-BAD6-B088165E80A6",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "F9F20604B88EE5478BDC27D909EA2F40E8133D55" : "main\/",
+    "10CD0B1E441E4CD7A054D7EBF99475AAFCBBBCEE" : "detu_dispatch_sdk\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "dispatchDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "dispatchDemo\/dispatchDemo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git.detu.com:cx\/detu_dispatch_sdk.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "10CD0B1E441E4CD7A054D7EBF99475AAFCBBBCEE"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git.detu.com:dom\/detu_ios_public.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F9F20604B88EE5478BDC27D909EA2F40E8133D55"
+    }
+  ]
+}
