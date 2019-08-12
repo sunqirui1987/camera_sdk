@@ -2,18 +2,8 @@
 #### 介绍
 得图相机SDK 集成了相机命令控制器、全景播放器、视频照片拼接、标定获取等
 ++注意：==只能支持真机调试==++
+
 ***
-****目录：**
-![WechatIMG547.jpeg](../../detu_dispatch_sdk/目录.png)
-***
-****配置：**
-![WechatIMG547.jpeg](../../detu_dispatch_sdk/路径.png)
-++按照demo++
-++1.设置header Paths、lib paths++
-++2. build phases 添加相关lib文件++
-***
-##### 全景播放器
-参考[得图全景相机](http://www.detu.com/develop/page/41)
 ##### 标定获取
 支持从本地资源、直播流读取标定信息以及支持对本地视频以及照片Metadata、Exif信息的设置。
 ``` 
